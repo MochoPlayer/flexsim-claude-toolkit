@@ -1,0 +1,9 @@
+{
+  "hours": 8,
+  "seeds": "1-5",
+  "scenarios": {
+    "base": {},
+    "fast_machine": {"Processor1/cycletime": 20},
+    "more_orders": {"Source1/interarrivaltime": "exponential(0, 26, 1)"}
+  }
+}
